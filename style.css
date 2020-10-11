@@ -1,0 +1,161 @@
+* {
+    font-family: 'Calibri';
+    padding: 0;
+    margin: 0;
+}
+
+/* .bg {
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    width: 150vw;
+    height: 150vh;
+    filter: blur(10px);
+} */
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardcontainer {
+    
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0px 8px 118px -29px rgba(0, 0, 0, 0.79);
+    /* div prend la place pour afficher ce qui s'y trouve, pour les ombres*/
+    background-color: white;
+}
+
+.cardimage {
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 10px 0 0 20px;
+}
+
+.title {
+    display: flex;
+    align-items: flex-start;
+}
+
+.titlewrapper {
+    display: flex;
+}
+
+.classification {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #092a5e
+}
+
+h2 {
+    color: #9fa1bc;
+    font-weight: normal;
+}
+
+.note-and-advice {
+    color: #97cff4;
+}
+
+.note {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.notice {
+    color: #0c2c60;
+}
+
+.price {
+    color: #d40e14;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.description {
+    padding: 20px;
+}
+
+.productprice {
+    display: flex;
+    align-items: center;
+}
+
+.ttc {
+    color: #db363b;
+    margin: 1px 0 0 10px;
+}
+
+.crosseroutprice {
+    color: #81817f;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: line-through;
+    /*commentaire*/
+}
+
+.info  {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #dd402d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* COMMENTAIRE */
+}
+
+.info p {
+    color: #dd402d;
+}
+
+.stickerdiscount {
+    background-color: #d40e14;
+    color: white;
+    line-height: 30px;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px 0 0 20px;
+    /*commentaire*/
+}
+.logo3
+{
+    width: 50px;
+    height: 50px;
+  
+}
+.payement
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#a29186 ;
+}
+.info2
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid 	#8eabc8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    /* COMMENTAIRE */   
+}
